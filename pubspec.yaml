@@ -35,6 +35,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # Audio player for sound effects
+  audioplayers: ^6.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -61,7 +64,12 @@ flutter:
     - assets/skull.png
     - assets/blackcat.png
     - assets/pumpkin.png
-    - assets/skull.png
+    - assets/ghost.png
+    - assets/sounds/boo.wav
+    - assets/sounds/cat.wav
+    - assets/sounds/chattering.wav
+    - assets/sounds/pumpkinlaugh.wav
+    - assets/sounds/tada.wav
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
