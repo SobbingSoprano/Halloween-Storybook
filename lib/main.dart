@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'screens/homescreen.dart';
 import 'screens/spookyroomscreen.dart';
 
+final RouteObserver<PageRoute> routeObserver = RouteObserver<PageRoute>();
+
 void main() {
   runApp(const MyApp());
 }
