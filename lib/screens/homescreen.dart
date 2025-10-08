@@ -52,16 +52,13 @@ class _HomeScreenState extends State<HomeScreen> with RouteAware {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Welcome to Halloween Storybook"),
-        backgroundColor: Colors.blue.shade600,
+        backgroundColor: Colors.deepPurple.shade800,
         foregroundColor: Colors.white,
       ),
       body: Container(
         width: double.infinity,
-        height: 200,
-        decoration: BoxDecoration(
-          color: Colors.grey.shade300,
-          borderRadius: BorderRadius.circular(12),
-        ),
+        height: double.infinity,
+        decoration: BoxDecoration(color: Colors.deepPurple.shade300),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
